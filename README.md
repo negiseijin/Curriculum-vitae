@@ -1,8 +1,11 @@
 # Curriculum-vitae
 
+[ English | [日本語](https://github.com/negiseijin/Curriculum-vitae/blob/master/README.ja.md) ]
+
 ## Data
 
 - [GitHub Pages](https://negiseijin.github.io/Curriculum-vitae/)
+- [PDF](https://github.com/kawamataryo/Curriculum-vitae/releases)
 - [File](https://github.com/negiseijin/Curriculum-vitae/blob/master/docs/README.md)
 
 ## Features
@@ -26,4 +29,14 @@ You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
 yarn build:pdf
 ```
 
-The output PDF styled as github-markdown-css .
+The output PDF styled as [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) .
+
+### 🛠 Create release
+
+When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
+
+``` git
+git commit -m "add job"
+git tag v1.0
+git push origin --tags
+```

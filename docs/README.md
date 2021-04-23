@@ -109,7 +109,7 @@
   * 結合テスト実施（内容検討、テスト仕様書作成、環境構築）
 * **課題**
   * 以下のような課題点があり、このプロジェクトに至りました。
-    * 3年以上継続したシステムであり、導入パッケージのバージョンアップがされていなかった。機能追加や今後の運用に対応できるように、パッケージのアップデートを実行しました。
+    * 3年以上継続したシステムであり、導入パッケージのバージョンアップがされていなかった。今後の運用、機能追加に対応できるように、パッケージのアップデートを実行しました。
 * **実績・成果**
   * Bootstrap v3.3.7→Bootstrap v4.6へのアップデート
   * jQuery v3.2.1→jQuery v3.5.1へのアップデート
@@ -204,7 +204,7 @@
 |言語|Vb.Net、C#、HTML、CSS、Javascript、TypeScript[^1]|
 |フレームワーク|jQuery、Bootstrap、Node.js、[^1]Next.js[^1]、Nuxt.js[^1]、React[^1]、Vue.js[^1]|
 |DB|SQLServer（4年）、MySQL（半年）、SQLite（半年）|
-|その他|Git（1年）、Adobe Xd（半年）、docker[^1]|
+|その他|Git（5年）、Adobe Xd（半年）、Docker[^1]|
 |Iaas|AWS[^1]、Heroku[^1]|
 
 [^1]:実務経験なし　※学習中
@@ -213,7 +213,7 @@
 
 * 未稿
   * <http://portfolio.com/>
-  * 技術: Next.js, Firebase, Docker,CircleCI,AWS
+  * 技術: Next.js,Firebase,Docker,CircleCI,AWS
   * <https://github.com/negiseijin/portfolio>
 
 ## 資格
