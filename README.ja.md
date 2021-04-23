@@ -1,5 +1,8 @@
 # Curriculum-vitae
 
+![build pdf](https://img.shields.io/github/workflow/status/negiseijin/Curriculum-vitae/Publish_Release?label=build%20pdf&logo=github)
+![release date](https://img.shields.io/github/release-date/negiseijin/Curriculum-vitae?color=blue&logo=github)
+
 [ [English](https://github.com/negiseijin/Curriculum-vitae/blob/master/README.md) | 日本語 ]
 
 ## Data
