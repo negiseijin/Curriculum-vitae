@@ -241,7 +241,7 @@
 
 ## ポートフォリオ
 
-* 作成中
+* ☆随時更新中
   * <https://portfolio-negiseijin.vercel.app/>
 
 ## 資格
