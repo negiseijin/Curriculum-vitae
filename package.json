@@ -2,9 +2,15 @@
   "name": "curriculum-vitae",
   "version": "1.0.0",
   "description": "negiseijinの職務経歴書",
+  "repository": "git@github.com:negiseijin/Curriculum-vitae.git",
+  "author": "negiseijin <satoru6221@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "lint--fix": "textlint --fix docs/README.md",
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -13,12 +19,9 @@
   },
   "lint-staged": {
     "*.@(md)": [
-      "yarn lint"
+      "yarn lint--fix"
     ]
   },
-  "repository": "git@github.com:negiseijin/Curriculum-vitae.git",
-  "author": "negiseijin <satoru6221@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^1.0.2",
     "husky": "^6.0.0",
@@ -42,5 +45,8 @@
     "textlint-rule-preset-jtf-style": "^2.3.8",
     "textlint-rule-prh": "^5.3.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^11.0.0"
   }
 }
