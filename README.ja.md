@@ -7,7 +7,6 @@
 ## Data
 
 - [GitHub Pages](https://negiseijin.github.io/Curriculum-vitae/)
-- [PDF](https://github.com/negiseijin/Curriculum-vitae/releases)
 - [File](https://github.com/negiseijin/Curriculum-vitae/blob/master/docs/README.md)
 
 ## Features
@@ -22,16 +21,6 @@ yarn lint --fix
 
 [husky](https://github.com/typicode/husky)によってcommit前にも自動で実行されます。
 校正のルールは `.textlintrc`に記載しています。
-
-### 📝 Convert Markdown to PDF
-
-[md-to-pdf](https://www.npmjs.com/package/md-to-pdf)でのPDF生成が可能です。
-
-``` yarn
-yarn build:pdf
-```
-
-出力されるPDFは[github-markdown-css](https://github.com/sindresorhus/github-markdown-css)を使用しています。
 
 ### 🛠 Create release
 
