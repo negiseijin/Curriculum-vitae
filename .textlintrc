@@ -5,6 +5,10 @@
       "dictURL": "https://azu.github.io/proof-dictionary/"
     },
     "preset-ja-spacing": true,
-    "preset-ja-technical-writing": true
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        "max": 10
+      }
+    }
   }
 }
