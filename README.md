@@ -2,32 +2,35 @@
 
 ![release date](https://img.shields.io/github/release-date/negiseijin/Curriculum-vitae?color=blue&logo=github)
 
-[ English | [日本語](https://github.com/negiseijin/Curriculum-vitae/blob/master/README.ja.md) ]
-
-## Data
+## :books: Data
 
 - [GitHub Pages](https://negiseijin.github.io/Curriculum-vitae/)
 - [File](https://github.com/negiseijin/Curriculum-vitae/blob/master/docs/README.md)
 
-## Features
+## :sparkles: Features
 
-### 💅 Lint text
+### :memo: Lint text
 
-Automatic proofreading with [textlint](https://github.com/textlint/textlint).
+[textlint](https://textlint.github.io/)での自動校正が可能です。
 
-``` yarn
+```yarn
 yarn lint --fix
 ```
 
-It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).
-proofreading rules are set with `.textlintrc`.
+[husky](https://typicode.github.io/husky/#/)によって commit 前にも自動で実行されます。
+校正のルールは `.textlintrc`に記載しています。
 
-### 🛠 Create release
+### :wrench: commitlint
 
-When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
+[commitlint](https://commitlint.js.org/#/)によってコミットメッセージが定められています。
+後述してある`semantic-release`と合わせて利用するので、主に以下のコミットメッセージを使用します。
+|コミットメッセージ |リリースタイプ |バージョン更新例|
+|---|---|---|
+| feat: 新しい機能|マイナーリリース|v1.0.0 → v1.1.0|
+| fix: バグ修正|パッチリリース|v1.0.0 → v1.0.1|
+| perf: パフォーマンスを向上させるためのコード変更<br>BREAKING CHANGE: （コミットメッセージの末行に記載する）|メジャーリリース|v1.0.0 → v2.0.0|
+| docs: 履歴書変更|メジャーリリース|v1.0.0 → v2.0.0|
 
-``` git
-git commit -m "add job"
-git tag v1.0
-git push origin --tags
-```
+### :rocket: Create release
+
+GitHub Actions で [semantic-release](https://semantic-release.gitbook.io/semantic-release/) を実行し、自動でリリースが作成されます。
