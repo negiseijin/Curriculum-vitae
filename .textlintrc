@@ -9,6 +9,11 @@
       "max-kanji-continuous-len": {
         "max": 10
       }
+    },
+    "prh": {
+      "rulePaths": [
+        "./prh.yml"
+      ]
     }
   }
 }

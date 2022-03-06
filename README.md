@@ -11,13 +11,13 @@
 
 ### :memo: Lint text
 
-[textlint](https://textlint.github.io/)での自動校正が可能です。
+[textlint](https://textlint.github.io/)で自動校正がされます。
 
 ```yarn
 yarn lint --fix
 ```
 
-[husky](https://typicode.github.io/husky/#/)によって commit 前にも自動で実行されます。
+[husky](https://typicode.github.io/husky/#/)によってcommit前にも自動で実行されます。
 校正のルールは `.textlintrc`に記載しています。
 
 ### :wrench: commitlint
@@ -30,12 +30,12 @@ yarn lint --fix
 | fix: バグ修正|パッチリリース|v1.0.0 → v1.0.1|
 | perf: パフォーマンスを向上させるためのコード変更<br>BREAKING CHANGE: （コミットメッセージの末行に記載する）|メジャーリリース|v1.0.0 → v2.0.0|
 
-よって、履歴書の変更は下記コミットメッセージとする
+よって、履歴書を変更した場合は下記コミットメッセージとする。
 
 ```git
-feat: or fix: (doc) ◯◯◯◯◯を追記
+feat: (doc) ◯◯◯◯◯を追記
 ```
 
 ### :rocket: Create release
 
-GitHub Actions で [semantic-release](https://semantic-release.gitbook.io/semantic-release/) を実行し、自動でリリースが作成されます。
+GitHub Actionsで [semantic-release](https://semantic-release.gitbook.io/semantic-release/) を実行し、自動でリリースが作成されます。

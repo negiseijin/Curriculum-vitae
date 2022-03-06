@@ -399,7 +399,7 @@
 | 言語           | Visual Basic, C#, Java, HTML, CSS, JavaScript, TypeScript, Python, Go                         |
 | フレームワーク | .NET Framework, Spring Framework, Apache Struts 2, jQuery, Bootstrap, Node.js, Vue.js, Django |
 | DB             | SQLServer, MySQL, SQLite, PostgreSQL                                                          |
-| その他         | Git, Adobe Xd, Docker                                                                         |
+| その他         | Git, Adobe Xd, Docker, Swagger                                                                |
 | Iaas           | AWS, GitHub Actions                                                                           |
 
 ## ポートフォリオ
