@@ -28,5 +28,15 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "resolutions": {
+    "minimist": "^1.2.6",
+    "lodash": "^4.17.12",
+    "async": "^2.6.4",
+    "ansi-regex": "^4.1.1",
+    "validator": "^13.7.0",
+    "yargs-parser": "^13.1.2",
+    "mem": "^4.0.0",
+    "underscore.string": "^3.3.5"
   }
 }
