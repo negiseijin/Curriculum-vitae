@@ -23,7 +23,6 @@
   - [ポートフォリオ](#ポートフォリオ)
   - [資格](#資格)
   - [希望給与](#希望給与)
-  - [最終更新日](#最終更新日)
 
 ## アカウント
 
@@ -427,20 +426,19 @@
 
 ## テクニカルスキル
 
-| カテゴリ       | 詳細                                                                                          | 備考 |
-| :------------- | :-------------------------------------------------------------------------------------------- | :--- |
+| カテゴリ       | 詳細                                                                                          |
+| :------------- | :-------------------------------------------------------------------------------------------- |
 | 担当業務       | 要件定義, 基本設計, 詳細設計, 実装, テスト, 運用保守                                          |
 | OS             | Windows, Windows Server                                                                       |
 | 言語           | Visual Basic, C#, Java, HTML, CSS, JavaScript, TypeScript, Python, Go                         |
 | フレームワーク | .NET Framework, Spring Framework, Apache Struts 2, jQuery, Bootstrap, Node.js, Vue.js, Django |
 | DB             | SQLServer, MySQL, SQLite, PostgreSQL                                                          |
-| その他         | Git, SVN, Adobe Xd, Docker, Swagger                                                                |
+| その他         | Git, SVN, Adobe Xd, Docker, Swagger                                                           |
 | Iaas           | AWS, GitHub Actions                                                                           |
 
 ## ポートフォリオ
 
-- ☆ 随時更新中
-  - <https://portfolio-negiseijin.vercel.app/>
+- [☆更新中](https://portfolio-negiseijin.vercel.app)
 
 ## 資格
 
@@ -453,10 +451,4 @@
 
 ## 希望給与
 
-- 年収450万円〜
-
-## 最終更新日
-
-このレジュメはGitHubのリポジトリで管理していますので、そちらの更新履歴を御覧ください。
-
-- <https://github.com/negiseijin/Curriculum-vitae>
+- 年収480万円〜
