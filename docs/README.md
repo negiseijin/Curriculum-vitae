@@ -118,6 +118,7 @@
   - Django Rest framework
   - TypeScript
   - Vue
+  - Vuetify
   - Postgres
 - **担当工程**
   - 基本設計
@@ -151,6 +152,7 @@
   - Gorm
   - TypeScript
   - Vue
+  - Vuetify
   - Python（マイグレーションtoolとしてDjango使用）
   - Postgres
 - **担当工程**
@@ -180,6 +182,7 @@
   - Python（Django）
   - TypeScript
   - Vue
+  - Vuetify
   - MySQL
   - jQuery
   - Docker
