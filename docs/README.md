@@ -29,7 +29,7 @@
 ## アカウント
 
 - 生年月日：1991年12月26日
-- 埼玉県在住
+- 東京都在住
 - メール： satoru6221@gmail.com
 - GitHub： https://github.com/negiseijin
 - Qiita： https://qiita.com/green___onion
@@ -466,14 +466,12 @@
 |:------------- |:----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
 |経験業務       |要件定義<br>基本設計<br>詳細設計<br>実装<br>テスト（結合・単体）<br>運用保守                               |2年<br>5年以上<br>5年以上<br>5年以上<br>5年以上<br>5年以上                                     |
 |OS             |Windows<br>Windows Server                                                                                  |5年以上<br>1年                                                                                 |
-|言語           |Visual Basic<br>C#<br>Java<br>HTML<br>CSS<br>JavaScript<br>TypeScript<br>Python<br>Go                      |5年以上<br>1年<br>3ヶ月<br>5年以上<br>5年以上<br>5年以上<br>5年以上<br>1年<br>3ヶ月    |
+|言語           |Visual Basic<br>C#<br>Java<br>HTML<br>CSS<br>JavaScript<br>TypeScript<br>Python<br>Go                      |5年以上<br>1年<br>3ヶ月<br>5年以上<br>5年以上<br>5年以上<br>2年<br>1年<br>3ヶ月    |
 |フレームワーク |.NET Framework<br>Spring Framework<br>Apache Struts 2<br>jQuery<br>Bootstrap<br>Node.js<br>Vue.js<br>Django|5年以上<br>3ヶ月<br>3ヶ月<br>5年以上<br>1年<br>1年<br>1年<br>1年       |
 |DB             |SQLServer<br>MySQL<br>SQLite<br>PostgreSQL                                                                 |5年以上<br>1年<br>1年<br>1年                                                           |
 |その他         |Git<br>SVN<br>Adobe Xd<br>Docker<br>Swagger<br>CodeCommit<br>Confluence                                    |5年以上<br>1年<br>3ヶ月<br>3ヶ月<br>3ヶ月<br>1年<br>1年                        |
 
-## ポートフォリオ
-
-- [☆更新中](https://portfolio-negiseijin.vercel.app)
+## [ポートフォリオ](https://portfolio-negiseijin.vercel.app)
 
 ## 資格
 
