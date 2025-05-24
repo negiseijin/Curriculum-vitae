@@ -13,8 +13,7 @@
     "semantic-release-cli": "^5.4.6"
   },
   "scripts": {
-    "semantic-release": "semantic-release",
-    "prepare": "husky"
+    "semantic-release": "semantic-release"
   },
   "commitlint": {
     "extends": [
