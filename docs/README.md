@@ -31,9 +31,9 @@
 - 生年月日：1991年12月26日
 - 東京都在住
 - メール：<satoru6221@gmail.com>
-- GitHub：https://github.com/negiseijin
-- Qiita：https://qiita.com/green___onion
-- Zenn：https://zenn.dev/negiseijin
+- GitHub：<https://github.com/negiseijin>
+- Qiita：<https://qiita.com/green___onion>
+- Zenn：<https://zenn.dev/negiseijin>
 
 ---
 

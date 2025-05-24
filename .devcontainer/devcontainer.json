@@ -16,13 +16,6 @@
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/node:1": {}
   },
-  // "mounts": [
-  //   {
-  //     "type": "bind",
-  //     "source": "${localWorkspaceFolder}",
-  //     "target": "${containerWorkspaceFolder}"
-  //   }
-  // ],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -60,6 +53,5 @@
   "updateRemoteUserUID": true,
   "shutdownAction": "stopCompose",
   "overrideCommand": true,
-  //   "postCreateCommand": "corepack enable && pnpm install",
   "postAttachCommand": "/bin/zsh .devcontainer/postAttachCommand.sh"
 }

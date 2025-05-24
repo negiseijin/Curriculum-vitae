@@ -16,6 +16,8 @@ if command -v gh &> /dev/null; then
   fi
 fi
 
+echo "$(ssh -T git@github.com)"
+
 echo "node -v $(node -v)"
 echo "pnpm -v $(pnpm -v)"
 
