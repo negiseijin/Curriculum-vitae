@@ -1,0 +1,65 @@
+{
+  "name": "${localWorkspaceFolderBasename}",
+  "dockerComposeFile": ["./compose.yaml"],
+  "service": "ubuntu",
+  "workspaceFolder": "/workspaces",
+  "remoteEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
+    "UBUNTU_TAG": "${localEnv:UBUNTU_TAG}"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true,
+      "username": "developer"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  // "mounts": [
+  //   {
+  //     "type": "bind",
+  //     "source": "${localWorkspaceFolder}",
+  //     "target": "${containerWorkspaceFolder}"
+  //   }
+  // ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.markdown-mermaid",
+        "bierner.markdown-preview-github-styles",
+        "christian-kohler.path-intellisense",
+        "davidanson.vscode-markdownlint",
+        "DavidAnson.vscode-markdownlint",
+        "docker.docker",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "EditorConfig.EditorConfig",
+        "github.vscode-github-actions",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.github-issues-prs",
+        "oderwat.indent-rainbow",
+        "shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit"
+        }
+      }
+    }
+  },
+  "forwardPorts": [],
+  "remoteUser": "developer",
+  "updateRemoteUserUID": true,
+  "shutdownAction": "stopCompose",
+  "overrideCommand": true,
+  //   "postCreateCommand": "corepack enable && pnpm install",
+  "postAttachCommand": "/bin/zsh .devcontainer/postAttachCommand.sh"
+}
