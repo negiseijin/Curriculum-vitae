@@ -1,0 +1,15 @@
+services:
+  ubuntu:
+    container_name: ubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        TAG: ${UBUNTU_TAG-22.04}
+    env_file:
+      - devcontainer.env
+    volumes:
+      - ../.:/workspaces:cached
+    hostname: ubuntu
+    tty: true
+    stdin_open: true

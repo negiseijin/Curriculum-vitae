@@ -7,23 +7,11 @@
 - [GitHub Pages](https://negiseijin.github.io/Curriculum-vitae/)
 - [File](https://github.com/negiseijin/Curriculum-vitae/blob/master/docs/README.md)
 
-## :sparkles: Features
-
-### :memo: Lint text
-
-[textlint](https://textlint.github.io/)で自動校正がされます。
-
-```yarn
-yarn lint --fix
-```
-
-[husky](https://typicode.github.io/husky/#/)によってcommit前にも自動で実行されます。
-校正のルールは `.textlintrc`に記載しています。
-
 ### :wrench: commitlint
 
 [commitlint](https://commitlint.js.org/#/)によってコミットメッセージが定められています。
 後述してある`semantic-release`と合わせて利用するので、主に以下のコミットメッセージを使用します。
+
 |コミットメッセージ |リリースタイプ |バージョン更新例|
 |---|---|---|
 | feat: 新しい機能|マイナーリリース|v1.0.0 → v1.1.0|
