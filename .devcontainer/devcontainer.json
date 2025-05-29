@@ -1,10 +1,11 @@
 {
   "name": "${localWorkspaceFolderBasename}",
-  "dockerComposeFile": ["./compose.yaml"],
+  "dockerComposeFile": [
+    "./compose.yaml"
+  ],
   "service": "ubuntu",
-  "workspaceFolder": "/workspaces",
+  "workspaceFolder": "/workspace",
   "remoteEnv": {
-    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
     "UBUNTU_TAG": "${localEnv:UBUNTU_TAG}"
   },
   "features": {
@@ -22,7 +23,6 @@
         "bierner.markdown-mermaid",
         "bierner.markdown-preview-github-styles",
         "christian-kohler.path-intellisense",
-        "davidanson.vscode-markdownlint",
         "DavidAnson.vscode-markdownlint",
         "docker.docker",
         "donjayamanne.githistory",

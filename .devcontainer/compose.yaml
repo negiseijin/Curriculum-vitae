@@ -9,7 +9,7 @@ services:
     env_file:
       - devcontainer.env
     volumes:
-      - ../.:/workspaces:cached
+      - ../.:/workspace:cached
     hostname: ubuntu
     tty: true
     stdin_open: true
