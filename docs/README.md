@@ -126,7 +126,7 @@
 - **使用技術**:
   - React, TypeScript, Turborepo, zod, shadcn/ui, tailwindcss, swr, IndexedDB, Dexie.js
   - Hono, Prisma, PostgreSQL, Docker, wsl, vscode, Backlog, DBeaver, Postman
-  - AWS(ECS, Lambda, S3, RDS, EC2, WAF, CloudFront, VPC, EventBridge, Step Functions, CloudWatch, CodeCommit, CodePipeline, Location Service, KMS, SNS, SSM)
+  - Python, AWS(ECS, Lambda, S3, RDS, EC2, WAF, CloudFront, VPC, EventBridge, Step Functions, CloudWatch, CodeCommit, CodePipeline, Location Service, KMS, SNS, SSM)
   - AWS Device Farm(pytest, appium, selenium)
 - **担当業務**:
   - 基本設計、詳細設計、プログラミング、結合テスト、非機能テスト。
@@ -136,6 +136,7 @@
   - ウォーターフォール開発プロセスにおいて、プロジェクトの初期段階から**技術選定、設計、開発をリード**し、開発チーム全体の生産性向上に貢献。
   - IndexedDBとDexie.jsを活用し、オフライン環境でのデータ永続化と高速なデータアクセスを実現。
   - shadcn/uiとtailwindcssを用いて、一貫性のあるUIコンポーネント開発を推進し、開発速度と品質を両立。
+  - GA4対応。
   - AWS Device Farmで自動テスト対応。
   - CloudFormationでインフラの一部も対応。
 
