@@ -38,7 +38,9 @@
         "streetsidesoftware.code-spell-checker",
         "VisualStudioExptTeam.intellicode-api-usage-examples",
         "VisualStudioExptTeam.vscodeintellicode",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "ms-vscode.live-server",
+        "esbenp.prettier-vscode"
       ],
       "settings": {
         "editor.formatOnSave": true,
