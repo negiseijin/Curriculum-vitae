@@ -5,9 +5,7 @@
   ],
   "service": "ubuntu",
   "workspaceFolder": "/workspace",
-  "remoteEnv": {
-    "UBUNTU_TAG": "${localEnv:UBUNTU_TAG}"
-  },
+  "remoteEnv": {},
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "configureZshAsDefaultShell": true,
